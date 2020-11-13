@@ -3,6 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196F3;
   --primary-white-color: #FFFFFF;
+  --primary-background: #F5F4FA;
 }
 
 body {
@@ -39,3 +40,13 @@ body {
 .nav-contacts .link:focus {
   color: var(--accent-color);
 }
+
+button {
+  background-color: var(--primary-background);
+}
+
+button:hover,
+button:focus{
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  }
