@@ -10,6 +10,7 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 
 a {
@@ -68,14 +69,15 @@ button:focus{
 
 /* footer style */
 
-.address.address {
+.address .link {
   font-size: 14px;
 line-height: 1.7;
+color: var(--primary-text-color);
 }
 
-.address .link {
-  color: var(--primary-text-color);
-}
+/* .address .link {
+
+} */
   /* portfolio style */
 
 .products .product-title {
