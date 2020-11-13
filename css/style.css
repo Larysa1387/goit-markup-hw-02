@@ -66,6 +66,13 @@ button:focus{
   color: var(--primary-white-color);
 }
 
+/* footer style */
+
+.address.address {
+  font-size: 14px;
+line-height: 1.7;
+}
+
 .address .link {
   color: var(--primary-text-color);
 }
