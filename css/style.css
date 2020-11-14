@@ -76,6 +76,16 @@ button:focus{
 
 /* main html style */
 
+h2, h3 {
+  color: var(--title-text-color);
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
 .features-title {
   font-size: 14px;
   line-height: 1.14;
@@ -83,10 +93,23 @@ button:focus{
   color: var(--title-text-color);
 }
 
-h2, h3 {
-  color: var(--title-text-color);
+.feature-item {
+  font-size: 14px;
+  line-height: 1.7;
 }
 
+.team-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.9;
+  text-align: center;
+}
 
 /* footer style */
 
