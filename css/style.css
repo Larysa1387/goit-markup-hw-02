@@ -25,11 +25,11 @@ a {
   font-family: Raleway;
   font-weight:700;
   font-size: 26px;
-line-height: 1.19;
+  line-height: 1.19;
   color: var(--title-text-color);
 }
 
-.logo span {
+.accent {
   color: var(--accent-color);
 }
 
@@ -70,6 +70,27 @@ line-height: 1.19;
 
 h2, h3 {
   color: var(--title-text-color);
+}
+
+/* hero */
+
+.hero {
+  background-color: #2F303A;
+  color: var(--primary-white-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 3.24;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-link {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 .about-us, .team-title {
@@ -128,9 +149,14 @@ button:focus{
 }
 
 .products .product-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--title-text-color);
 }
 
 .products .product-item {
+  font-size: 16px;
+  line-height: 1.88;
   color: var(--primary-text-color);
 }
