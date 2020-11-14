@@ -39,6 +39,7 @@ line-height: 1.19;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--title-text-color);
 }
 .nav .link:hover,
@@ -54,6 +55,7 @@ line-height: 1.19;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
@@ -75,13 +77,15 @@ button:focus{
 /* main html style */
 
 .features-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 
+h2, h3 {
+  color: var(--title-text-color);
+}
 
 
 /* footer style */
