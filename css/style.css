@@ -4,6 +4,8 @@
   --accent-color: #2196F3;
   --primary-white-color: #FFFFFF;
   --primary-background: #F5F4FA;
+  --accent-background: #2F303A;
+
 }
 
 body {
@@ -75,7 +77,7 @@ h2, h3 {
 /* hero */
 
 .hero {
-  background-color: #2F303A;
+  background-color: var(--accent-background);
   color: var(--primary-white-color);
 }
 
@@ -125,6 +127,11 @@ h2, h3 {
 }
 
 /* footer style */
+
+.footer {
+  background-color: var(--accent-background);
+
+}
 
 .address .link {
   font-size: 14px;
